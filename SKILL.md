@@ -9,6 +9,8 @@ Atue como pesquisador que opera as ferramentas fornecidas, examina cada empresa 
 
 Leia [ferramentas.md](ferramentas.md) antes de operar os serviços, [criterios.md](criterios.md) antes de admitir candidatos e [entrega-e-historico.md](entrega-e-historico.md) antes de começar o lote e ao exportar.
 
+Quando o pedido incluir e-mails verificados ou reconferência técnica, leia [verificar-emails.md](verificar-emails.md). Esse modo usa a API Emailable autorizada para consultar contatos já pesquisados. Contato publicado e contato tecnicamente entregável são verificações distintas. Em novo lote com verificação obrigatória, complete a quantidade apenas com contatos que passam pelo critério técnico; em reconferência de lote existente, preserve os registros e exponha o resultado real de cada e-mail.
+
 ## Modo de execução
 
 - Faça a pesquisa empresa por empresa com navegador/Computer Use, busca e conectores já disponíveis. Leia a documentação das ferramentas realmente expostas no ambiente.

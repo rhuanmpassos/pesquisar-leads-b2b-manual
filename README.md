@@ -10,6 +10,7 @@ A IA opera as ferramentas disponíveis e toma decisões empresa por empresa. O p
 - [ferramentas.md](ferramentas.md): ferramentas, contrato CNPJ de referência e operação manual de navegador, Whois, redes e Meta.
 - [criterios.md](criterios.md): identidade, responsáveis, contatos e decisões de admissão.
 - [entrega-e-historico.md](entrega-e-historico.md): formato cru, fontes, persistência e prevenção de repetição.
+- [verificar-emails.md](verificar-emails.md): modo opcional Emailable, resultados técnicos, critérios de aceitação e credencial privada.
 
 ## Instalar
 
@@ -17,7 +18,7 @@ No Codex com instalador de skills, peça:
 
 > Use a skill-installer para instalar a skill da raiz de https://github.com/rhuanmpassos/pesquisar-leads-b2b-manual com o nome pesquisar-leads-b2b-manual.
 
-Alternativa manual: baixe o ZIP do repositório e coloque seu conteúdo em uma pasta chamada `pesquisar-leads-b2b-manual` dentro de `$CODEX_HOME/skills`. Sem `CODEX_HOME`, a localização usual é `~/.codex/skills/pesquisar-leads-b2b-manual`, inclusive em Windows. `SKILL.md` deve ficar diretamente nessa pasta, junto dos três documentos que ele referencia. A skill pode ser usada no próximo turno após a instalação.
+Alternativa manual: baixe o ZIP do repositório e coloque seu conteúdo em uma pasta chamada `pesquisar-leads-b2b-manual` dentro de `$CODEX_HOME/skills`. Sem `CODEX_HOME`, a localização usual é `~/.codex/skills/pesquisar-leads-b2b-manual`, inclusive em Windows. `SKILL.md` deve ficar diretamente nessa pasta, junto dos documentos que ele referencia. A skill pode ser usada no próximo turno após a instalação.
 
 Em outro ambiente de IA, carregue `SKILL.md` e mantenha os documentos relativos disponíveis. As ferramentas de navegador, CNPJ, arquivos e planilhas precisam existir naquele ambiente; a skill não as instala.
 
@@ -34,6 +35,8 @@ Use um histórico privado comum entre pesquisas. Ao mudar de máquina, transfira
 > Use $pesquisar-leads-b2b-manual e procure 20 empresas do segmento informado em Sorocaba/SP que tenham telefone empresarial, podendo ser fixo ou WhatsApp. E-mail é desejável, não obrigatório. Não escreva ganchos nem e-mails.
 
 Na Meta, o padrão é sempre Brasil, todos os anúncios e status todos. Anúncios inativos são examinados. O motivo de inativação só é registrado quando a plataforma o informa.
+
+Para exigir verificação técnica, acrescente ao pedido: "Exija e-mails verificados pela Emailable, usando minha credencial privada configurada. Complete o lote apenas com contatos entregáveis pelo critério da skill." O verificador não confirma titularidade. A credencial precisa ser configurada separadamente e não acompanha este repositório.
 
 ## O que a aprovação significa
 

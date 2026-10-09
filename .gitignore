@@ -1,0 +1,15 @@
+# Dados e configurações de operação são privados.
+.env
+.env.*
+config-pesquisa.md
+config-local*
+historico-leads*
+candidatos-consultados*
+checkpoint-pesquisa*
+work/
+data/
+*.xlsx
+*.csv
+*.jsonl
+*.png
+*.zip
